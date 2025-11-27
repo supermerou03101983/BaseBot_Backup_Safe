@@ -1,0 +1,38 @@
+# Secrets et clés privées
+.env
+config/.env
+*.key
+private_key.txt
+
+# Données sensibles et dynamiques
+data/
+logs/
+backups/
+*.db
+
+# Fichiers Python temporaires
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environnement virtuel
+venv/
+env/
+.env/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Fichiers de position (état du bot)
+data/position_*.json
+
+# Journaux système
+*.log
+
+# Credentials VPS (NE PAS COMMITTER)
+vps_credentials.conf
+
+# Données temporaires du VPS
+temp_vps_data/
